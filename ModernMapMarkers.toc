@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: |cff7fff7fM|cffffffffodern |cff7fff7fM|cffffffffap |cff7fff7fM|cffffffffarkers |cff222222G|cffFF0000e|cffFFD700r|cff222222m|cffFF0000a|cffFFD700n
+## Title: |cff7fff7fM|cffffffffodern |cff7fff7fM|cffffffffap |cff7fff7fM|cffffffffarkers |cffffffffG|cffFF0000e|cffFFD700r|cffffffffm|cffFF0000a|cffFFD700n
 ## Author: tilr & Heallios
 ## Notes: Shows dungeon, raid, world boss, boat, zeppelin, and tram locations on the world map
 ## Version: 1.2
