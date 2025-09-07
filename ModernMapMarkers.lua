@@ -2,7 +2,7 @@
 local points = {
     -- Kalimdor Dungeons
     {1, 12, 0.123, 0.128, "Blackfathom Deeps", "dungeon", "24-32", 2},
-    {1, 16, 0.66, 0.49, "Black Morass", "dungeon", "60", 1},
+    {1, 25, 0.66, 0.49, "Black Morass", "dungeon", "60", 1},
     {1, 12, 0.51, 0.78, "Crescent Grove", "dungeon", "32-38", 3},
     {1, 13, 0.648, 0.303, "Dire Maul - East", "dungeon", "55-58", 4},
     {1, 13, 0.624, 0.249, "Dire Maul - North", "dungeon", "57-60", 5},
@@ -23,7 +23,7 @@ local points = {
 	{1, 1, 0.69, 0.094, "Cla'ckora", "worldboss", "60", nil},
 	{1, 4, 0.82, 0.80, "Concavius", "worldboss", "60"},
 	{1, 15, 0.336, 0.398, "Father Lycan", "worldboss", "60", nil},
-	{1, 16, 0.361, 0.762, "Ostarius", "worldboss", "60", nil},
+	{1, 25, 0.361, 0.762, "Ostarius", "worldboss", "60", nil},
 	{1, 12, 0.937, 0.355, "Emerald Dragon - Spawn Point 1 of 4", "worldboss", "60", nil},
 	{1, 13, 0.512, 0.108, "Emerald Dragon - Spawn Point 2 of 4", "worldboss", "60", nil},
     -- Kalimdor Transport
@@ -36,8 +36,8 @@ local points = {
 	{1, 7, 0.304, 0.41, "Boat to Alah'Thalas", "boat", "Alliance", nil},  -- alliance
 	{1, 7, 0.333, 0.399, "Boat to Rut'Theran Village", "boat", "Alliance", nil}, -- alliance
 	{1, 10, 0.718, 0.566, "Boat to Menethil Harbor", "boat", "Alliance", nil}, -- alliance
-	{1, 22, 0.311, 0.395, "Boat to Forgotten Coast", "boat", "Alliance", nil}, -- alliance
-	{1, 22, 0.431, 0.428, "Boat to Sardor Isle", "boat", "Alliance", nil}, -- alliance
+	{1, 13, 0.311, 0.395, "Boat to Forgotten Coast", "boat", "Alliance", nil}, -- alliance
+	{1, 13, 0.431, 0.428, "Boat to Sardor Isle", "boat", "Alliance", nil}, -- alliance
 	{1, 28, 0.552, 0.949, "Boat to Auberdine", "boat", "Alliance", nil}, -- alliance
     -- Eastern Kingdoms Dungeons
     {2, 26, 0.371, 0.857, "Blackrock Depths", "dungeon", "52-60", 1},
@@ -571,5 +571,6 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
 end
+
 
 
