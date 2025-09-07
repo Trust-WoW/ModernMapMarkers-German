@@ -1,44 +1,44 @@
 -- Marker data: { continent, zoneID, x, y, name, type, info, Atlas ID }
 local points = {
     -- Kalimdor Dungeons
-    {1, 12, 0.123, 0.128, "Blackfathom Deeps", "dungeon", "24-32", 2},
-    {1, 25, 0.66, 0.49, "Black Morass", "dungeon", "60", 1},
-    {1, 12, 0.51, 0.78, "Crescent Grove", "dungeon", "32-38", 3},
-    {1, 13, 0.648, 0.303, "Dire Maul - East", "dungeon", "55-58", 3},
-    {1, 13, 0.624, 0.249, "Dire Maul - North", "dungeon", "57-60", 5},
-    {1, 13, 0.604, 0.311, "Dire Maul - West", "dungeon", "57-60", 6},
+    {1, 12, 0.123, 0.128, "Tiefschwarze Grotte", "dungeon", "24-32", 2},
+    {1, 25, 0.66, 0.49, "Der Schwarze Morast", "dungeon", "60", 1},
+    {1, 12, 0.51, 0.78, "Mondsichelhain", "dungeon", "32-38", 3},
+    {1, 13, 0.648, 0.303, "Düsterbruch – Ost", "dungeon", "55-58", 3},
+    {1, 13, 0.624, 0.249, "Düsterbruch – Nord", "dungeon", "57-60", 5},
+    {1, 13, 0.604, 0.311, "Düsterbruch – West", "dungeon", "57-60", 6},
     {1, 4, 0.29, 0.629, "Maraudon", "dungeon", "46-55", 8},
-    {1, 21, 0.53, 0.486, "Ragefire Chasm", "dungeon", "13-18", 10},
-    {1, 2, 0.488, 0.919, "Razorfen Downs", "dungeon", "37-46", 11},
-    {1, 2, 0.407, 0.873, "Razorfen Kraul", "dungeon", "29-38", 12},
-    {1, 2, 0.462, 0.357, "Wailing Caverns", "dungeon", "17-24", 15},
+    {1, 21, 0.53, 0.486, "Der Flammenschlund", "dungeon", "13-18", 10},
+    {1, 2, 0.488, 0.919, "Kral der Klingenhauer", "dungeon", "37-46", 11},
+    {1, 2, 0.407, 0.873, "Hügel der Klingenhauer", "dungeon", "29-38", 12},
+    {1, 2, 0.462, 0.357, "Die Höhlen des Wehklagens", "dungeon", "17-24", 15},
     {1, 25, 0.389, 0.184, "Zul'Farrak", "dungeon", "44-54", 16},
 	-- Kalimdor Raids
-	{1, 15, 0.207, 0.592, "Emerald Sanctum", "raid", "60", 7},
-	{1, 10, 0.53, 0.76, "Onyxia's Lair", "raid", "60", 9},
-	{1, 23, 0.296, 0.960, "Ruins of Ahn'Qiraj", "raid", "60", 13},
-	{1, 23, 0.282, 0.956, "Temple of Ahn'Qiraj", "raid", "60", 14},
+	{1, 15, 0.207, 0.592, "Smaragdsanktum", "raid", "60", 7},
+	{1, 10, 0.53, 0.76, "Onyxias Hort", "raid", "60", 9},
+	{1, 23, 0.296, 0.960, "Ruinen von Ahn’Qiraj", "raid", "60", 13},
+	{1, 23, 0.282, 0.956, "Tempel von Ahn’Qiraj", "raid", "60", 14},
 	-- Kalimdor World Bosses
 	{1, 1, 0.535, 0.816, "Azuregos", "worldboss", "60", nil},
 	{1, 1, 0.69, 0.094, "Cla'ckora", "worldboss", "60", nil},
 	{1, 4, 0.82, 0.80, "Concavius", "worldboss", "60"},
-	{1, 15, 0.336, 0.398, "Father Lycan", "worldboss", "60", nil},
+	{1, 15, 0.336, 0.398, "Vater Lykan", "worldboss", "60", nil},
 	{1, 25, 0.361, 0.762, "Ostarius", "worldboss", "60", nil},
-	{1, 12, 0.937, 0.355, "Emerald Dragon - Spawn Point 1 of 4", "worldboss", "60", nil},
-	{1, 13, 0.512, 0.108, "Emerald Dragon - Spawn Point 2 of 4", "worldboss", "60", nil},
+	{1, 12, 0.937, 0.355, "Smaragddrache – Erscheinungspunkt 1 von 4", "worldboss", "60", nil},
+	{1, 13, 0.512, 0.108, "Smaragddrache – Erscheinungspunkt 2 von 4", "worldboss", "60", nil},
     -- Kalimdor Transport
-    {1, 8, 0.512, 0.135, "Zeppelins to UC & Grom'Gol", "zepp", "Horde", nil},  -- horde
-    {1, 8, 0.415, 0.184, "Zeppelins to TB & Kargath", "zepp", "Horde", nil},   -- horde
-    {1, 6, 0.165, 0.230, "Zeppelin to Orgrimmar", "zepp", "Horde", nil},  -- horde
-    {1, 8, 0.598, 0.236, "Boat to Revantusk Village ", "boat", "Horde", nil},  -- horde
-    {1, 2, 0.636, 0.389, "Boat to Booty Bay", "boat", "Neutral", nil},  -- neutral
-	{1, 7, 0.324, 0.44, "Boat to Stormwind", "boat", "Alliance", nil}, -- alliance
-	{1, 7, 0.304, 0.41, "Boat to Alah'Thalas", "boat", "Alliance", nil},  -- alliance
-	{1, 7, 0.333, 0.399, "Boat to Rut'Theran Village", "boat", "Alliance", nil}, -- alliance
-	{1, 10, 0.718, 0.566, "Boat to Menethil Harbor", "boat", "Alliance", nil}, -- alliance
-	{1, 13, 0.311, 0.395, "Boat to Forgotten Coast", "boat", "Alliance", nil}, -- alliance
-	{1, 13, 0.431, 0.428, "Boat to Sardor Isle", "boat", "Alliance", nil}, -- alliance
-	{1, 28, 0.552, 0.949, "Boat to Auberdine", "boat", "Alliance", nil}, -- alliance
+    {1, 8, 0.512, 0.135, "Zeppeline nach Unterstadt & Grom’gol", "zepp", "Horde", nil},  -- horde
+    {1, 8, 0.415, 0.184, "Zeppeline nach Donnerfels & Kargath", "zepp", "Horde", nil},   -- horde
+    {1, 6, 0.165, 0.230, "Zeppelin nach Orgrimmar", "zepp", "Horde", nil},  -- horde
+    {1, 8, 0.598, 0.236, "Schiff ins Dorf der Bruchhauer", "boat", "Horde", nil},  -- horde
+    {1, 2, 0.636, 0.389, "Schiff nach Beutebucht", "boat", "Neutral", nil},  -- neutral
+	{1, 7, 0.324, 0.44, "Schiff nach Sturmwind", "boat", "Alliance", nil}, -- alliance
+	{1, 7, 0.304, 0.41, "Schiff nach Alah’Thalas", "boat", "Alliance", nil},  -- alliance
+	{1, 7, 0.333, 0.399, "Schiff nach Rut’theran", "boat", "Alliance", nil}, -- alliance
+	{1, 10, 0.718, 0.566, "Schiff nach Hafen von Menethil", "boat", "Alliance", nil}, -- alliance
+	{1, 13, 0.311, 0.395, "Schiff zur Vergessenen Küste", "boat", "Alliance", nil}, -- alliance
+	{1, 13, 0.431, 0.428, "Schiff zur Sardor-Insel", "boat", "Alliance", nil}, -- alliance
+	{1, 28, 0.552, 0.949, "Schiff nach Auberdine", "boat", "Alliance", nil}, -- alliance
     -- Eastern Kingdoms Dungeons
     {2, 26, 0.371, 0.857, "Blackrock Depths", "dungeon", "52-60", 1},
 	{2, 8, 0.328, 0.362, "Blackrock Depths", "dungeon", "52-60", 1},
@@ -571,6 +571,7 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
 end
+
 
 
 
