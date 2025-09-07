@@ -84,7 +84,7 @@ local points = {
 	{2, 39, 0.082, 0.38, "Nerubischer Aufseher", "worldboss", "60", nil},
 	-- Eastern Kingdoms Transport
 	{2, 25, 0.694, 0.294, "Tiefenbahn nach Eisenschmiede", "tram", "Allianz", nil},  -- alliance
-	{2, 19, 0.762, 0.511, "Tiefenbahn nach Sturmwind", "tram", "Allianz", nil},  -- alliance
+	{2, 10, 0.762, 0.511, "Tiefenbahn nach Sturmwind", "tram", "Allianz", nil},  -- alliance
 	{2, 33, 0.812, 0.794, "Schiff nach Funkenwasser Hafen", "boat", "Horde", nil}, -- horde
 	{2, 26, 0.068, 0.613, "Schiff nach Theramore", "boat", "Allianz", nil},  -- alliance
 	{2, 25, 0.218, 0.563, "Schiff nach Auberdine", "boat", "Allianz", nil}, -- alliance
@@ -571,6 +571,7 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
 end
+
 
 
 
