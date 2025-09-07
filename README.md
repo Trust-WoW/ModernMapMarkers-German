@@ -1,4 +1,4 @@
-# ModernMapMarkers for TurtleWoW
+# ModernMapMarkers for TurtleWoW (German version)
 Places markers on the world map to show the locations of dungeons, raids, world bosses, boats, zeppelins, and trams.
 
 🌟 **Features:**
