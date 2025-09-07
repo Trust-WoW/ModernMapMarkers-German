@@ -80,7 +80,7 @@ local points = {
 	{2, 11, 0.471, 0.751, "Dunkler Plünderer von Karazhan", "worldboss", "60", nil},
 	{2, 11, 0.465, 0.357, "Emerald Dragon - Spawn Point 3 of 4", "worldboss", "60", nil},
 	{2, 33, 0.632, 0.217, "Emerald Dragon - Spawn Point 4 of 4", "worldboss", "60", nil},
-	{2, 7, 0.36, 0.753, "Lord Kazzak", "worldboss", "60", 7},
+	{2, 33, 0.36, 0.753, "Lord Kazzak", "worldboss", "60", 7},
 	{2, 39, 0.082, 0.38, "Nerubischer Aufseher", "worldboss", "60", nil},
 	-- Eastern Kingdoms Transport
 	{2, 25, 0.694, 0.294, "Tiefenbahn nach Eisenschmiede", "tram", "Allianz", nil},  -- alliance
@@ -571,6 +571,7 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
 end
+
 
 
 
