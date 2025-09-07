@@ -4,7 +4,7 @@ local points = {
     {1, 12, 0.123, 0.128, "Blackfathom Deeps", "dungeon", "24-32", 2},
     {1, 25, 0.66, 0.49, "Black Morass", "dungeon", "60", 1},
     {1, 12, 0.51, 0.78, "Crescent Grove", "dungeon", "32-38", 3},
-    {1, 13, 0.648, 0.303, "Dire Maul - East", "dungeon", "55-58", 4},
+    {1, 13, 0.648, 0.303, "Dire Maul - East", "dungeon", "55-58", DireMaulEast},
     {1, 13, 0.624, 0.249, "Dire Maul - North", "dungeon", "57-60", 5},
     {1, 13, 0.604, 0.311, "Dire Maul - West", "dungeon", "57-60", 6},
     {1, 4, 0.29, 0.629, "Maraudon", "dungeon", "46-55", 8},
@@ -571,6 +571,7 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
 end
+
 
 
 
