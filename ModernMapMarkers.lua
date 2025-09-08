@@ -334,7 +334,7 @@ local function CreateToggleCheckbox(parent, x, y, text, optionKey)
         end
         
         if debug then
-            print("Checkbox " .. text .. " is now set to: " .. tostring(ModernMapMarkersDB[optionKey]))
+            print("Checkbox " .. text .. " gesetzt auf: " .. tostring(ModernMapMarkersDB[optionKey]))
         end
         UpdateMarkers()
     end)
@@ -390,12 +390,12 @@ local function CreateConfigUI()
     
     local title = config:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
     title:SetPoint("TOP", 0, -15)
-    title:SetText("Modern Map Markers")
+    title:SetText("Modern Map Markers - Deutsche Version")
 
     -- Master toggle
     local masterLabel = config:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     masterLabel:SetPoint("TOPLEFT", 20, -45)
-    masterLabel:SetText("Enable Map Markers:")
+    masterLabel:SetText("Aktiviere Map Marker:")
 
     masterToggle = CreateFrame("CheckButton", nil, config, "UICheckButtonTemplate")
     masterToggle:SetPoint("LEFT", masterLabel, "RIGHT", 5, 0)
@@ -412,11 +412,11 @@ local function CreateConfigUI()
         
         if ModernMapMarkersDB.showMarkers then
             if debug then
-                print("Map Markers: Enabled")
+                print("Map Marker: Aktiviert")
             end
         else
             if debug then
-                print("Map Markers: Disabled")
+                print("Map Marker: Deaktiviert")
             end
             for _, pin in pairs(markers) do
                 pin:Hide()
@@ -429,9 +429,9 @@ local function CreateConfigUI()
     end)
 
     -- Add category toggles
-    dungeonRaidsToggle = CreateToggleCheckbox(config, 20, -75, "Show Dungeons & Raids", "showDungeonRaids")
-    transportToggle = CreateToggleCheckbox(config, 20, -100, "Show Transport (Boats, Zeppelins, Trams)", "showTransport")
-    worldBossToggle = CreateToggleCheckbox(config, 20, -125, "Show World Bosses", "showWorldBosses")
+    dungeonRaidsToggle = CreateToggleCheckbox(config, 20, -75, "Zeige Dungeons & Raids", "showDungeonRaids")
+    transportToggle = CreateToggleCheckbox(config, 20, -100, "Zeige Transport (Schiffe, Zeppeline, Tiefenbahn)", "showTransport")
+    worldBossToggle = CreateToggleCheckbox(config, 20, -125, "Zeige Weltbosse", "showWorldBosses")
 
     local closeButton = CreateFrame("Button", nil, config, "UIPanelButtonTemplate")
     closeButton:SetWidth(80)
@@ -550,7 +550,7 @@ local function CreateToggleCheckbox(parent, x, y, text, optionKey)
         end
         
         if debug then
-            print("Checkbox " .. text .. " is now set to: " .. tostring(ModernMapMarkersDB[optionKey]))
+            print("Checkbox " .. text .. " gesetzt auf: " .. tostring(ModernMapMarkersDB[optionKey]))
         end
         UpdateMarkers()
     end)
@@ -569,8 +569,9 @@ SlashCmdList["MMM"] = function()
 end
 
 if debug then
-    DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
+    DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Erfolgreich initialisiert")
 end
+
 
 
 
