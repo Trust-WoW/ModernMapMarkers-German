@@ -63,9 +63,9 @@ local points = {
     {2, 27, 0.701, 0.55, "Der Versunkene Tempel", "dungeon", "50-60", 23},
     {2, 38, 0.429, 0.130, "Uldaman – Haupteingang", "dungeon", "41-51", 25},
     {2, 38, 0.657, 0.438, "Uldaman – Hintereingang", "dungeon", "41-51", 25},
-    {2, 5, 0.312, 0.365, "Upper Blackrock Spire", "dungeon", "55-60", 26},
+    {2, 5, 0.312, 0.365, "Obere Schwarzfelsspitze", "dungeon", "55-60", 26},
 	{2, 23, 0.355, 0.855, "Obere Schwarzfelsspitze", "dungeon", "55-60", 26},
-	{2, 39, 0.67, 0.634, "Zuflucht des Drachenmals", "dungeon", "27-33", 4},
+	{2, 26, 0.67, 0.634, "Zuflucht des Drachenmals", "dungeon", "27-33", 4},
 	{2, 5, 0.57, 0.598, "Ruine von Sturmschmied", "dungeon", "35-41", 21},
 	-- Eastern Kingdoms Raids
 	{2, 23, 0.332, 0.851, "Pechschwingenhort", "raid", "60", 2},
@@ -571,6 +571,7 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
 end
+
 
 
 
