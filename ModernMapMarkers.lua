@@ -3,21 +3,21 @@ local points = {
     -- Kalimdor Dungeons
     {1, 12, 0.123, 0.128, "Tiefschwarze Grotte", "dungeon", "24-32", 2},
     {1, 25, 0.66, 0.49, "Der Schwarze Morast", "dungeon", "60", 1},
-    {1, 12, 0.51, 0.78, "Mondsichelhain", "dungeon", "32-38", 3},
+    {1, 12, 0.51, 0.78, "Mondsichelhain", "dungeon", "32-38", 14},
     {1, 13, 0.648, 0.303, "Düsterbruch – Ost", "dungeon", "55-58", 3},
-    {1, 13, 0.624, 0.249, "Düsterbruch – Nord", "dungeon", "57-60", 5},
-    {1, 13, 0.604, 0.311, "Düsterbruch – West", "dungeon", "57-60", 6},
-    {1, 4, 0.29, 0.629, "Maraudon", "dungeon", "46-55", 8},
-    {1, 21, 0.53, 0.486, "Der Flammenschlund", "dungeon", "13-18", 10},
+    {1, 13, 0.624, 0.249, "Düsterbruch – Nord", "dungeon", "57-60", 4},
+    {1, 13, 0.604, 0.311, "Düsterbruch – West", "dungeon", "57-60", 5},
+    {1, 4, 0.29, 0.629, "Maraudon", "dungeon", "46-55", 7},
+    {1, 21, 0.53, 0.486, "Der Flammenschlund", "dungeon", "13-18", 9},
     {1, 2, 0.488, 0.919, "Kral der Klingenhauer", "dungeon", "37-46", 11},
-    {1, 2, 0.407, 0.873, "Hügel der Klingenhauer", "dungeon", "29-38", 12},
+    {1, 2, 0.407, 0.873, "Hügel der Klingenhauer", "dungeon", "29-38", 10},
     {1, 2, 0.462, 0.357, "Die Höhlen des Wehklagens", "dungeon", "17-24", 15},
     {1, 25, 0.389, 0.184, "Zul'Farrak", "dungeon", "44-54", 16},
 	-- Kalimdor Raids
-	{1, 15, 0.207, 0.592, "Smaragdsanktum", "raid", "60", 7},
-	{1, 10, 0.53, 0.76, "Onyxias Hort", "raid", "60", 9},
-	{1, 23, 0.296, 0.960, "Ruinen von Ahn’Qiraj", "raid", "60", 13},
-	{1, 23, 0.282, 0.956, "Tempel von Ahn’Qiraj", "raid", "60", 14},
+	{1, 15, 0.207, 0.592, "Smaragdsanktum", "raid", "60", 6},
+	{1, 10, 0.53, 0.76, "Onyxias Hort", "raid", "60", 8},
+	{1, 23, 0.296, 0.960, "Ruinen von Ahn’Qiraj", "raid", "60", 12},
+	{1, 23, 0.282, 0.956, "Tempel von Ahn’Qiraj", "raid", "60", 13},
 	-- Kalimdor World Bosses
 	{1, 1, 0.535, 0.816, "Azuregos", "worldboss", "60", nil},
 	{1, 1, 0.69, 0.094, "Cla'ckora", "worldboss", "60", nil},
@@ -571,6 +571,7 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
 end
+
 
 
 
