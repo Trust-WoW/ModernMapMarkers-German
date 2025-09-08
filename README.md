@@ -3,6 +3,7 @@ Platziert Markierungen auf der Weltkarte, um die Standorte von Dungeons, Raids, 
 
 🌟 **Features**  
 
+
 🏰 **Dungeon- & Raid-Markierungen –** Zeigt auf der Weltkarte den Eingang zu jeder Instanz.  
 
 🛳️ **Transport-Markierungen –** Schiffe, Zeppeline und sogar die Tiefenbahn werden auf der Weltkarte angezeigt.  
