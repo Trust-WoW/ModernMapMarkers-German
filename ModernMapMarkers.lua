@@ -360,7 +360,7 @@ end
 
 local function CreateConfigUI()
     config = CreateFrame("Frame", "MMMConfigFrame", UIParent)
-    config:SetWidth(320)
+    config:SetWidth(360)
     config:SetHeight(220)
     config:SetPoint("CENTER", UIParent, "CENTER")
 	
@@ -571,6 +571,7 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Erfolgreich initialisiert")
 end
+
 
 
 
