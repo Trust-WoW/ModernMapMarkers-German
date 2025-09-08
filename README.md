@@ -1,19 +1,19 @@
-# ModernMapMarkers for TurtleWoW (German version)
-Places markers on the world map to show the locations of dungeons, raids, world bosses, boats, zeppelins, and trams.
+# ModernMapMarkers für TurtleWoW (Deutsche Version)  
+Platziert Markierungen auf der Weltkarte, um die Standorte von Dungeons, Raids, Weltbossen, Schiffen, Zeppelinen und der Tiefenbahn anzuzeigen.  
 
-🌟 **Features:**
+🌟 **Features**  
 
-🏰 **Dungeon & Raid Markers –** On the world map, shows where every instance entrance is located.
+🏰 **Dungeon- & Raid-Markierungen –** Zeigt auf der Weltkarte den Eingang zu jeder Instanz.  
 
-🛳️ **Transport Markers –** Boats, zeppelins, and even the Deeprun Tram are marked on the world map.
+🛳️ **Transport-Markierungen –** Schiffe, Zeppeline und sogar die Tiefenbahn werden auf der Weltkarte angezeigt.  
 
-🐉 **World Boss Markers –** Locations of world bosses are placed on the map.
+🐉 **Weltboss-Markierungen –** Die Positionen der Weltbosse sind auf der Karte eingetragen.  
 
-⚙️ **Customizable –** Toggle marker types within the UI
+⚙️ **Anpassbar –** Markierungstypen können im Interface ein- oder ausgeschaltet werden.  
 
-📚 **Atlas Integration –** If you use **Atlas** + **AtlasQuest**, you can click markers to open their pages in Atlas.
+📚 **Atlas-Integration –** Falls du **Atlas** + **AtlasQuest** nutzt, kannst du Markierungen anklicken, um deren Seiten in Atlas zu öffnen.  
 
-💬 **Command -** Open the UI with **/mmm**.
+💬 **Befehl –** Öffne das Interface mit **/mmm**.  
 
 
 <img src="https://github.com/user-attachments/assets/a0fa2e63-e0b5-485c-9e68-9057e68a4118" alt="dungeon" width="300" height="200"> <img src="https://github.com/user-attachments/assets/3d408b8b-d4f7-449c-a33f-cad9a3d41f4b" alt="dungeon" width="300" height="200"> <img src="https://github.com/user-attachments/assets/2e71077b-fc04-4d00-86fa-fbe1f107ab2f" alt="dungeon" width="300" height="200"> <img src="https://github.com/user-attachments/assets/75258999-cf95-4a59-ba26-5a928d0600b1" alt="dungeon" width="300" height="200">
