@@ -66,7 +66,7 @@ local points = {
     {2, 5, 0.312, 0.365, "Obere Schwarzfelsspitze", "dungeon", "55-60", 26},
 	{2, 23, 0.355, 0.855, "Obere Schwarzfelsspitze", "dungeon", "55-60", 26},
 	{2, 26, 0.67, 0.634, "Zuflucht des Drachenmals", "dungeon", "27-33", 4},
-	{2, 5, 0.57, 0.598, "Ruine von Sturmschmied", "dungeon", "35-41", 21},
+	{2, 4, 0.57, 0.598, "Ruine von Sturmschmied", "dungeon", "35-41", 21},
 	-- Eastern Kingdoms Raids
 	{2, 23, 0.332, 0.851, "Pechschwingenhort", "raid", "60", 2},
 	{2, 5, 0.273, 0.363, "Pechschwingenhort", "raid", "60", 2},
@@ -78,19 +78,19 @@ local points = {
 	{2, 21, 0.53, 0.172, "Zul'Gurub", "raid", "60", 27},
 	-- Eastern Kingdoms World Bosses
 	{2, 11, 0.471, 0.751, "Dunkler Plünderer von Karazhan", "worldboss", "60", nil},
-	{2, 11, 0.465, 0.357, "Emerald Dragon - Spawn Point 3 of 4", "worldboss", "60", nil},
-	{2, 33, 0.632, 0.217, "Emerald Dragon - Spawn Point 4 of 4", "worldboss", "60", nil},
+	{2, 8, 0.465, 0.357, "Emerald Dragon - Spawn Point 3 of 4", "worldboss", "60", nil},
+	{2, 15, 0.632, 0.217, "Emerald Dragon - Spawn Point 4 of 4", "worldboss", "60", nil},
 	{2, 33, 0.36, 0.753, "Lord Kazzak", "worldboss", "60", 7},
 	{2, 39, 0.082, 0.38, "Nerubischer Aufseher", "worldboss", "60", nil},
 	-- Eastern Kingdoms Transport
 	{2, 25, 0.694, 0.294, "Tiefenbahn nach Eisenschmiede", "tram", "Allianz", nil},  -- alliance
 	{2, 10, 0.762, 0.511, "Tiefenbahn nach Sturmwind", "tram", "Allianz", nil},  -- alliance
-	{2, 33, 0.812, 0.794, "Schiff nach Funkenwasser Hafen", "boat", "Horde", nil}, -- horde
+	{2, 15, 0.812, 0.794, "Schiff nach Funkenwasser Hafen", "boat", "Horde", nil}, -- horde
 	{2, 26, 0.068, 0.613, "Schiff nach Theramore", "boat", "Allianz", nil},  -- alliance
 	{2, 25, 0.218, 0.563, "Schiff nach Auberdine", "boat", "Allianz", nil}, -- alliance
 	{2, 21, 0.257, 0.73, "Schiff nach Ratschet", "boat", "Neutral", nil}, -- neutral
 	{2, 29, 0.616, 0.571, "Zeppeline nach Orgrimmar & Grom’gol", "zepp", "Horde", nil}, -- horde
-	{2, 29, 0.312, 0.298, "Zeppeline nach Unterstadt & Orgrimmar", "zepp", "Horde", nil}, -- Horde
+	{2, 21, 0.312, 0.298, "Zeppeline nach Unterstadt & Orgrimmar", "zepp", "Horde", nil}, -- Horde
 	{2, 38, 0.075, 0.480, "Zeppelin nach Orgrimmar", "zepp", "Horde",  nil}, -- Horde
 	{2, 1, 0.531, 0.047, "Schiff nach Auberdine", "boat", "Allianz", nil}, -- alliance
 }
@@ -571,6 +571,7 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
 end
+
 
 
 
