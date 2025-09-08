@@ -1,8 +1,7 @@
 # ModernMapMarkers für TurtleWoW (Deutsche Version)  
 Platziert Markierungen auf der Weltkarte, um die Standorte von Dungeons, Raids, Weltbossen, Schiffen, Zeppelinen und der Tiefenbahn anzuzeigen.  
 
-🌟 **Features**  
-
+🌟 **Features**<br></br>  
 
 🏰 **Dungeon- & Raid-Markierungen –** Zeigt auf der Weltkarte den Eingang zu jeder Instanz.  
 
