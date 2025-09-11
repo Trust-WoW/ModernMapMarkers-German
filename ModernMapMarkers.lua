@@ -1,12 +1,12 @@
 -- Marker data: { continent, zoneID, x, y, name, type, info, Atlas ID }
 local points = {
     -- Kalimdor Dungeons
-    {1, 12, 0.123, 0.128, "Tiefschwarze Grotte", "dungeon", "24-32", 2},
+    {1, 11, 0.123, 0.128, "Tiefschwarze Grotte", "dungeon", "24-32", 2},
     {1, 25, 0.66, 0.49, "Der Schwarze Morast", "dungeon", "60", 1},
-    {1, 12, 0.51, 0.78, "Mondsichelhain", "dungeon", "32-38", 14},
-    {1, 13, 0.648, 0.303, "Düsterbruch – Ost", "dungeon", "55-58", 3},
-    {1, 13, 0.624, 0.249, "Düsterbruch – Nord", "dungeon", "57-60", 4},
-    {1, 13, 0.604, 0.311, "Düsterbruch – West", "dungeon", "57-60", 5},
+    {1, 11, 0.51, 0.78, "Mondsichelhain", "dungeon", "32-38", 14},
+    {1, 12, 0.648, 0.303, "Düsterbruch – Ost", "dungeon", "55-58", 3},
+    {1, 12, 0.624, 0.249, "Düsterbruch – Nord", "dungeon", "57-60", 4},
+    {1, 12, 0.604, 0.311, "Düsterbruch – West", "dungeon", "57-60", 5},
     {1, 4, 0.29, 0.629, "Maraudon", "dungeon", "46-55", 7},
     {1, 21, 0.53, 0.486, "Der Flammenschlund", "dungeon", "13-18", 9},
     {1, 2, 0.488, 0.919, "Kral der Klingenhauer", "dungeon", "37-46", 11},
@@ -14,7 +14,7 @@ local points = {
     {1, 2, 0.462, 0.357, "Die Höhlen des Wehklagens", "dungeon", "17-24", 15},
     {1, 25, 0.389, 0.184, "Zul'Farrak", "dungeon", "44-54", 16},
 	-- Kalimdor Raids
-	{1, 15, 0.207, 0.592, "Smaragdsanktum", "raid", "60", 6},
+	{1, 14, 0.207, 0.592, "Smaragdsanktum", "raid", "60", 6},
 	{1, 10, 0.53, 0.76, "Onyxias Hort", "raid", "60", 8},
 	{1, 23, 0.296, 0.960, "Ruinen von Ahn’Qiraj", "raid", "60", 12},
 	{1, 23, 0.282, 0.956, "Tempel von Ahn’Qiraj", "raid", "60", 13},
@@ -22,22 +22,22 @@ local points = {
 	{1, 1, 0.535, 0.816, "Azuregos", "worldboss", "60", nil},
 	{1, 1, 0.69, 0.094, "Cla'ckora", "worldboss", "60", nil},
 	{1, 4, 0.82, 0.80, "Concavius", "worldboss", "60", nil},
-	{1, 15, 0.336, 0.398, "Vater Lykan", "worldboss", "60", nil},
+	{1, 14, 0.336, 0.398, "Vater Lykan", "worldboss", "60", nil},
 	{1, 25, 0.361, 0.762, "Ostarius", "worldboss", "60", nil},
-	{1, 12, 0.937, 0.355, "Smaragddrache – Erscheinungspunkt 1 von 4", "worldboss", "60", nil},
-	{1, 13, 0.512, 0.108, "Smaragddrache – Erscheinungspunkt 2 von 4", "worldboss", "60", nil},
+	{1, 11, 0.937, 0.355, "Smaragddrache – Erscheinungspunkt 1 von 4", "worldboss", "60", nil},
+	{1, 12, 0.512, 0.108, "Smaragddrache – Erscheinungspunkt 2 von 4", "worldboss", "60", nil},
     -- Kalimdor Transport
-    {1, 8, 0.512, 0.135, "Zeppeline nach Unterstadt & Grom’gol", "zepp", "Horde", nil},  -- horde
-    {1, 8, 0.415, 0.184, "Zeppeline nach Donnerfels & Kargath", "zepp", "Horde", nil},   -- horde
-    {1, 6, 0.165, 0.230, "Zeppelin nach Orgrimmar", "zepp", "Horde", nil},  -- horde
+    {1, 7, 0.512, 0.135, "Zeppeline nach Unterstadt & Grom’gol", "zepp", "Horde", nil},  -- horde
+    {1, 7, 0.415, 0.184, "Zeppeline nach Donnerfels & Kargath", "zepp", "Horde", nil},   -- horde
+    {1, 5, 0.165, 0.230, "Zeppelin nach Orgrimmar", "zepp", "Horde", nil},  -- horde
     {1, 8, 0.598, 0.236, "Schiff ins Dorf der Bruchhauer", "boat", "Horde", nil},  -- horde
     {1, 2, 0.636, 0.389, "Schiff nach Beutebucht", "boat", "Neutral", nil},  -- neutral
-	{1, 7, 0.324, 0.44, "Schiff nach Sturmwind", "boat", "Allianz", nil}, -- alliance
-	{1, 7, 0.304, 0.41, "Schiff nach Alah’Thalas", "boat", "Allianz", nil},  -- alliance
-	{1, 7, 0.333, 0.399, "Schiff nach Rut’theran", "boat", "Allianz", nil}, -- alliance
-	{1, 10, 0.718, 0.566, "Schiff nach Hafen von Menethil", "boat", "Allianz", nil}, -- alliance
-	{1, 13, 0.311, 0.395, "Schiff zur Vergessenen Küste", "boat", "Allianz", nil}, -- alliance
-	{1, 13, 0.431, 0.428, "Schiff zur Sardor-Insel", "boat", "Allianz", nil}, -- alliance
+	{1, 6, 0.324, 0.44, "Schiff nach Sturmwind", "boat", "Allianz", nil}, -- alliance
+	{1, 6, 0.304, 0.41, "Schiff nach Alah’Thalas", "boat", "Allianz", nil},  -- alliance
+	{1, 6, 0.333, 0.399, "Schiff nach Rut’theran", "boat", "Allianz", nil}, -- alliance
+	{1, 9, 0.718, 0.566, "Schiff nach Hafen von Menethil", "boat", "Allianz", nil}, -- alliance
+	{1, 12, 0.311, 0.395, "Schiff zur Vergessenen Küste", "boat", "Allianz", nil}, -- alliance
+	{1, 12, 0.431, 0.428, "Schiff zur Sardor-Insel", "boat", "Allianz", nil}, -- alliance
 	{1, 28, 0.552, 0.949, "Schiff nach Auberdine", "boat", "Allianz", nil}, -- alliance
     -- Eastern Kingdoms Dungeons
     {2, 24, 0.371, 0.857, "Schwarzfelstiefen", "dungeon", "52-60", 1},
@@ -571,6 +571,7 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Erfolgreich initialisiert")
 end
+
 
 
 
